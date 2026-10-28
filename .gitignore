@@ -1,0 +1,20 @@
+@"
+# .NET build outputs
+**/bin/
+**/obj/
+
+# User-specific files
+*.user
+*.suo
+
+# IDE
+.vs/
+.vscode/
+
+# Secrets and local configuration
+appsettings.Local.json
+appsettings.Development.json
+.env
+.env.*
+!.env.example
+"@ | Set-Content .gitignore
